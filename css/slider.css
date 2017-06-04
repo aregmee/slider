@@ -1,0 +1,60 @@
+.view-port {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider {
+    width: 2400px;
+    position: relative;
+}
+
+.slider-img {
+    width: 400px;
+    float: left;
+}
+
+.button-holder {
+    position: relative;
+    top: -30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.slider-change {
+    display: inline-block;
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #2196f3;
+}
+
+.navigation {
+    position: relative;
+    top: -50%;
+}
+
+.navigation > a {
+    width: 49%;
+    display: inline-block;
+}
+
+.navigation > .left > img {
+    float: left;
+}
+
+.navigation > .right > img {
+    float: right;
+}
+
+.navigation > a > img {
+    width: 40px;
+}
+
+.navigation > .right > img {
+    float: right;
+    display: inline-block;
+}
